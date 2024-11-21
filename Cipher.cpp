@@ -1,7 +1,4 @@
 #include <iostream>
+#include "Cipher.h"
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
-
+Cipher::Cipher(const string& text) : text{ text }{}
