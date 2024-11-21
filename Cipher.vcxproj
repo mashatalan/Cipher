@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CaesarCipher.cpp" />
     <ClCompile Include="Cipher.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="XorCipher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CaesarCipher.h" />
+    <ClInclude Include="Cipher.h" />
+    <ClInclude Include="XorCipher.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
