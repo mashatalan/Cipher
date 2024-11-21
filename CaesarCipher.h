@@ -7,6 +7,5 @@ public:
 	CaesarCipher(string, int);
 	string encrypts() override;
 	string decodes() override;
-
 };
 
