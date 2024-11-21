@@ -1,6 +1,6 @@
 #include "XorCipher.h"
 
-XorCipher::XorCipher(char key) : Cipher(text), key{key}{}
+XorCipher::XorCipher(string text, char key) : Cipher(text), key{key}{}
 
 string XorCipher::encrypts()
 {
