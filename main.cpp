@@ -7,7 +7,7 @@
 using namespace std;
 
 void saveToFile(const string& filename, const string& data) {
-	ofstream outFile(filename, ios::app);
+	ofstream outFile(filename);
 	if (outFile) {
 		outFile << data << "\n";
 		outFile.close();
